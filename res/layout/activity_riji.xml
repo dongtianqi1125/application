@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" > 
+                                
+    <TextView
+        android:id="@+id/writeDiary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#90ee90"     
+        android:text="@string/ds" />                           
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ds"
+        android:onClick="write"
+         /> 
+                                
+    <ListView
+        android:id="@+id/diarieslist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" /> 
+                                
+</LinearLayout>

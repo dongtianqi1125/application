@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:text="准考证号:"
+    />
+<EditText
+    android:id="@+id/zkzh" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:inputType="text"
+    android:text=""
+    />
+<TextView  
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:text="姓名:"
+    />
+<EditText
+    android:id="@+id/xm" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:inputType="text"
+    android:text=""
+    />
+
+   <Button 
+       android:id="@+id/btnSubmit" 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="确认" />
+
+</LinearLayout>

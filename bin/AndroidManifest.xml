@@ -1,0 +1,65 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.application"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+ <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black" >
+        <activity
+            android:name=".ZnbUi"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".Manshow"
+            android:label="@string/title_activity_main" ></activity>
+             <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" ></activity>
+               <activity
+            android:name=".Phone"
+            android:label="@string/title_activity_main" ></activity>
+               <activity
+            android:name=".Show"
+            android:label="@string/title_activity_main" ></activity>
+                 <activity
+            android:name=".QueryEnglish"
+            android:label="@string/title_activity_main" ></activity>
+                 <activity
+            android:name=".Orien"
+            android:label="@string/title_activity_main" ></activity>
+                   <activity
+            android:name=".Displaynote"
+            android:label="@string/title_activity_main" ></activity>
+                     <activity
+            android:name=".Write"
+            android:label="@string/title_activity_main" ></activity>
+                       <activity
+            android:name=".RijiActivity"
+            android:label="@string/title_activity_main" ></activity>
+                       <activity
+            android:name=".NaozhongActivity"
+            android:label="@string/title_activity_main" ></activity>
+  
+                       
+                         <activity android:name=".AlarmActivity" />
+
+<receiver android:name=".AlarmReceiver" android:process=":remote"/>
+ 
+  </application>
+</manifest>

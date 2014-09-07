@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">405小助手</string>
+     <string name="desc">这个图片是属于man的</string>
+  <string name="phone_name">电话号码查询归属地</string>
+    <string name="ds">点击帅哥开始写日记吧！</string>  
+    <string name="tit">标题: </string> 
+</resources>

@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<TextView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="刘教授测试专用"
+android:textSize="24sp"
+android:textColor="#ffd700"
+    />
+<TextView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="这里将显示你设定的时间"
+android:id="@+id/timeview"
+    />
+<Button android:id="@+id/btn" 
+android:text="设置闹钟"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,122 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tabhost"
+    >
+    <LinearLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+        >
+        <TabWidget 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:id="@android:id/tabs"
+            />
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@android:id/tabcontent"
+             >
+
+            <RelativeLayout
+                android:id="@+id/page1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:background="#ffc0cb"
+                >
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="欢迎来到助手导航页面"
+                    android:textColor="#ff0000"
+                    android:textSize="24sp"
+                     />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:text="四六级成绩查询" 
+                    android:onClick="queryEnglish"
+                    />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                
+                    android:layout_centerHorizontal="true"
+                     android:layout_marginTop="120dp"
+                    android:text="号码所在地查询" 
+                    android:onClick="queryPhone"
+                    />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_centerHorizontal="true"
+                     android:layout_marginTop="190dp"
+                    android:text="个人定时闹钟" 
+                    android:onClick="clock"
+                    />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:layout_centerHorizontal="true"
+                     android:layout_marginTop="260dp"
+                    android:text="个人私密日记"
+                    android:onClick="privateDaynote"
+                     />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:layout_centerHorizontal="true"
+                     android:layout_marginTop="330dp"
+                    android:text="方向导航（指南针功能）"
+                    android:onClick="leadDirection"
+                     />
+
+            </RelativeLayout>
+           
+               <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/page2"
+                >
+                <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="对不起本页面还未开放"
+                    />
+           </LinearLayout>
+           
+                  <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/page3"
+                >
+          
+                <ImageButton 
+            android:contentDescription="@string/desc"
+            android:id="@+id/buttonman"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/manshow"
+            android:onClick="buttonman"
+                    />
+           </LinearLayout>
+            
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
+  

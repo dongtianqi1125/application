@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/tit"
+        />
+    <EditText 
+        android:id="@+id/title"
+         android:layout_width="260dp"
+        android:layout_height="25dp"
+         android:text="这里编辑你的标题···"
+         android:textColor="#8b0000"
+         android:background="#000000"
+          android:inputType="text"
+          android:maxWidth="260dp"
+        />
+</LinearLayout>
+<EditText 
+        android:id="@+id/context"
+         android:gravity="left|top"
+         android:layout_width="fill_parent"
+        android:layout_height="380dp"
+        android:inputType="textMultiLine"
+         android:text="这里编辑你的内容···"
+         android:textColor="#8b0000"
+         android:background="#000000"
+        />
+ <LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button 
+          android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="保存日记"
+    android:onClick="save"
+        />
+     <Button 
+          android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="find"
+    android:onClick="find"
+        />
+    
+     </LinearLayout>
+
+
+
+</LinearLayout>

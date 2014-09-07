@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:gravity="center_vertical"
+     > 
+<Button 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="点击这里删除这篇日记"
+    android:onClick="delete"
+    />
+<TextView 
+    android:id="@+id/time"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        />
+<TextView 
+    android:id="@+id/titledisplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        />
+<TextView 
+    android:id="@+id/contextdisplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+  
+</LinearLayout>
+</ScrollView>
